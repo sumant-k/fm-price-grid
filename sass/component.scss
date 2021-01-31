@@ -1,0 +1,82 @@
+.price {
+  min-height: 100vh;
+  font-size: 1rem;
+  background-color: $color-neutral-light-gray;
+  display: grid;
+  //grid-template-columns: minmax(5rem, 1fr) repeat(8, minmax(10rem, 1fr)) minmax(5rem, 1fr);
+  grid-template-columns: minmax(5rem, 1fr) repeat(8, minmax(min-content, 1fr)) minmax(5rem, 1fr);
+  @media only screen  and (max-width:43.75em) {
+    grid-template-columns: 2rem repeat(8, minmax(min-content, .5fr)) 2rem;
+  }
+  //@media only screen  and (max-width:37.5em) {
+  //  font-size: 75%;
+  //}
+  align-items: center;
+  &__container {
+    grid-column: 3 / 9;
+    @media only screen  and (max-width:43.75em) {
+      grid-column: 2 / 10;
+    }
+    background-color: white;
+    display: grid;
+    //grid-template-columns: repeat(auto-fit, minmax(24rem, max-content));
+    grid-template-columns: repeat(auto-fit, minmax(24rem, max-content));
+    //grid-template-rows: repeat(2, min-content);
+    align-items: stretch;
+    border-radius: 0.5rem;
+    overflow: hidden; // to hide the corners of children since parent as radius .5rem
+  }
+}
+
+.board {
+  grid-column: 1 / -1;
+  padding: 3rem;
+  h1 {
+    margin-bottom: 0.75rem;
+  }
+  &__desc {
+    color: $color-neutral-grayish-blue;
+  }
+}
+.subscription {
+  //grid-area: 2/1/3/2;
+  background-color: $color-primary-cyan;
+  color: lighten($color-neutral-light-gray, 5%);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, min-content);
+
+  padding: 2rem 3rem;
+  h2 {
+    line-height: 1;
+  }
+  &__price {
+    margin-top: 1rem;
+  }
+
+  &__btn {
+    border: none;
+    background-color: $color-primary-bright-yellow;
+    padding: 1.25rem 2rem;
+    width: 90%;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    color: $color-neutral-light-gray;
+    border-radius: 0.5rem;
+    box-shadow: 0.5rem 1rem 2rem rgba(black, 0.1);
+  }
+}
+.reasons {
+  //grid-area: 2/2/3/3;
+  background-color: rgba($color-primary-cyan, 0.8);
+  color: $color-neutral-light-gray;
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  &__list {
+    margin-top: 1rem;
+    list-style: none;
+  }
+}

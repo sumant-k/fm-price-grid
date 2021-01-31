@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+*, *::before, *::after {
+  margin: 0;
+  padding: 0; }
+
+html {
+  box-sizing: border-box;
+  font-size: 100%; }
+  @media only screen and (max-width: 43.75em) {
+    html {
+      font-size: 87.5%; } }
+
+* {
+  box-sizing: inherit; }
+
+body {
+  font-family: 'Karla', sans-serif;
+  line-height: 1.5;
+  font-weight: 400; }
+
+.heading-primary {
+  font-size: 2.5rem;
+  font-weight: 700; }
+  .heading-primary--blue {
+    color: #2ab2af; }
+  .heading-primary--light {
+    color: #e5eff5; }
+
+.heading-secondary {
+  font-size: 1.5rem;
+  font-weight: 700; }
+  .heading-secondary--yellow {
+    color: #c0df34; }
+  .heading-secondary--light {
+    color: #e5eff5; }
+
+.u-margin-bottom--small {
+  margin-bottom: 0.75rem; }
+
+.u-margin-bottom--medium {
+  margin-bottom: 1rem; }
+
+.price {
+  min-height: 100vh;
+  font-size: 1rem;
+  background-color: #e5eff5;
+  display: grid;
+  grid-template-columns: minmax(5rem, 1fr) repeat(8, minmax(min-content, 1fr)) minmax(5rem, 1fr);
+  align-items: center; }
+  @media only screen and (max-width: 43.75em) {
+    .price {
+      grid-template-columns: 2rem repeat(8, minmax(min-content, 0.5fr)) 2rem; } }
+  .price__container {
+    grid-column: 3 / 9;
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(24rem, max-content));
+    align-items: stretch;
+    border-radius: 0.5rem;
+    overflow: hidden; }
+    @media only screen and (max-width: 43.75em) {
+      .price__container {
+        grid-column: 2 / 10; } }
+
+.board {
+  grid-column: 1 / -1;
+  padding: 3rem; }
+  .board h1 {
+    margin-bottom: 0.75rem; }
+  .board__desc {
+    color: #98a6bd; }
+
+.subscription {
+  background-color: #2ab2af;
+  color: #f8fafc;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, min-content);
+  padding: 2rem 3rem; }
+  .subscription h2 {
+    line-height: 1; }
+  .subscription__price {
+    margin-top: 1rem; }
+  .subscription__btn {
+    border: none;
+    background-color: #c0df34;
+    padding: 1.25rem 2rem;
+    width: 90%;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    color: #e5eff5;
+    border-radius: 0.5rem;
+    box-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.1); }
+
+.reasons {
+  background-color: rgba(42, 178, 175, 0.8);
+  color: #e5eff5;
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  .reasons__list {
+    margin-top: 1rem;
+    list-style: none; }
