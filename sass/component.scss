@@ -80,3 +80,27 @@
     list-style: none;
   }
 }
+.attribution {
+  font-weight: 400;
+  border-top: 2px solid $color-primary-cyan;
+  font-size: 1rem;
+  a {
+    outline: none;
+    display: inline-block;
+    margin: 0 0.3rem;
+    text-decoration: none;
+    color: darken($color-primary-bright-yellow, 20%);
+    font-weight: 700;
+    border-top: 2px solid transparent;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    border-bottom: 2px solid $color-primary-cyan;
+    transition: all 0.3s;
+    &:active,
+    &:hover {
+      border: 2px solid $color-primary-cyan;
+    }
+  }
+  padding: 2rem;
+  text-align: center;
+}
