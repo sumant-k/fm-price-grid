@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0a18a9de-e310-4ede-ac51-f4cdb44e28a0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/component.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +37,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JS/intro-component-with-signup-form-master" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\sumant\Desktop\single-price-grid-component-master\node_modules\prettier" />
@@ -112,7 +109,7 @@
       <option name="presentableId" value="Default" />
       <updated>1612082533331</updated>
       <workItem from="1612082535596" duration="17186000" />
-      <workItem from="1612110412388" duration="3774000" />
+      <workItem from="1612110412388" duration="4116000" />
     </task>
     <servers />
   </component>

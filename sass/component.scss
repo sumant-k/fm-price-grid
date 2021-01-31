@@ -84,12 +84,13 @@
   font-weight: 400;
   border-top: 2px solid $color-primary-cyan;
   font-size: 1rem;
+  color: darken($color-neutral-grayish-blue, 30%);
   a {
     outline: none;
     display: inline-block;
     margin: 0 0.3rem;
     text-decoration: none;
-    color: darken($color-primary-bright-yellow, 20%);
+    color: $color-primary-cyan;
     font-weight: 700;
     border-top: 2px solid transparent;
     border-left: 2px solid transparent;
@@ -98,7 +99,7 @@
     transition: all 0.3s;
     &:active,
     &:hover {
-      border: 2px solid $color-primary-cyan;
+      border: 2px solid $color-primary-bright-yellow;
     }
   }
   padding: 2rem;

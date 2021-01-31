@@ -107,6 +107,7 @@ body {
   font-weight: 400;
   border-top: 2px solid #2ab2af;
   font-size: 1rem;
+  color: #4a5973;
   padding: 2rem;
   text-align: center; }
   .attribution a {
@@ -114,7 +115,7 @@ body {
     display: inline-block;
     margin: 0 0.3rem;
     text-decoration: none;
-    color: #7f9617;
+    color: #2ab2af;
     font-weight: 700;
     border-top: 2px solid transparent;
     border-left: 2px solid transparent;
@@ -122,4 +123,4 @@ body {
     border-bottom: 2px solid #2ab2af;
     transition: all 0.3s; }
     .attribution a:active, .attribution a:hover {
-      border: 2px solid #2ab2af; }
+      border: 2px solid #c0df34; }
